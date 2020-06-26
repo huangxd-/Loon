@@ -1,9 +1,9 @@
 /*
 chordify app unlocks premium
 Surge4.0:
-http-response https:\/\/chordify\.net\/api\/v1\/users\/me requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/NobyDa/Script/master/Surge/JS/VUE.js
+http-response https:\/\/chordify\.net\/api\/v1\/users\/me requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/huangxd-/Loon/master/JS/chordify.js
 QX 1.0.0:
-^https:\/\/chordify\.net\/api\/v1\/users\/me url script-response-body https://raw.githubusercontent.com/NobyDa/Script/master/Surge/JS/VUE.js
+^https:\/\/chordify\.net\/api\/v1\/users\/me url script-response-body https://raw.githubusercontent.com/huangxd-/Loon/master/JS/chordify.js
 Surge & QX Mitm = chordify.net
 */
 
