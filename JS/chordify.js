@@ -7,5 +7,5 @@ QX 1.0.0:
 Surge & QX Mitm = chordify.net
 */
 
-body = $response.body.replace(/\"member_type\":free/, "\"member_type\":premium")
+body = $response.body.replace(/\"member_type\": \"free\"/, "\"member_type\": \"premium\"")
 $done({body});
